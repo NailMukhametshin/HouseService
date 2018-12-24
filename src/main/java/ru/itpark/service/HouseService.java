@@ -19,10 +19,6 @@ public class HouseService {
         repository.addHouse(house);
     }
 
-    public List<House> getHouse() {
-        return repository.getHouse();
-    }
-
     public List<House> findByDistrict(String... districts) {
 
         List<House> result = new ArrayList<>();

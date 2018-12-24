@@ -59,7 +59,7 @@ class HouseServiceTest {
 
             for (House house : result) {
                 int price = house.getPrice();
-                assertTrue(price >= minPrice); // Ctrl + Alt + V
+                assertTrue(price >= minPrice);
                 assertTrue(price <= maxPrice);
             }
         }
