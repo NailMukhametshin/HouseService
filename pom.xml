@@ -13,9 +13,7 @@
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
-    <!-- Ctrl + Shift + A -->
     <dependencies>
-        <!-- IDEA: dep + TAB -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

@@ -8,6 +8,6 @@ public class PriceComparator implements Comparator<House> {
 
     @Override
     public int compare(House h1, House h2) {
-        return h1.toString().compareTo(h2.toString());
+        return h1.getPrice() - h2.getPrice();
     }
 }
