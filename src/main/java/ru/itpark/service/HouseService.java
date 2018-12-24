@@ -32,9 +32,9 @@ public class HouseService {
 
             if (districtsList.contains(house.getDistrict())) {
                 result.add(house);
-                result.sort(new PriceComparator());
             }
         }
+        result.sort(new PriceComparator());
         return result;
     }
 
@@ -46,9 +46,9 @@ public class HouseService {
 
             if (house.getPrice() >= minPrice && house.getPrice() <= maxPrice) {
                 result.add(house);
-                result.sort(new PriceComparator());
             }
         }
+        result.sort(new PriceComparator());
         return result;
     }
 
