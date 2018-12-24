@@ -7,7 +7,7 @@ import java.util.List;
 
 public class HouseRepository {
 
-    List<House> houses = new ArrayList<>();
+    private final List<House> houses = new ArrayList<>();
 
     public List<House> getHouse() {
         return houses;
